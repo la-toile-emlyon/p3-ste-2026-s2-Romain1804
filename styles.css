@@ -133,6 +133,15 @@
     justify-content: center;
 }
 
+.justify-end {
+    justify-content: end;
+}
+
+.justify-start {
+    justify-content: start;
+}
+
+
 .align-center {
     align-items: center;
 }
@@ -244,6 +253,9 @@
     padding-bottom: 128px;
 }
 
+.p-16{
+    padding: 16px;
+}
 /* ------------------------------
             CONTAINER
  ---------------------------------*/
@@ -285,7 +297,7 @@ section {
  ---------------------------------*/
 .card {
     border: solid 5px transparent;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: #ebf2ff;
     color: #201F21;
 }
@@ -297,23 +309,23 @@ section {
 }
 
 .btn1 {
-    background-color: #FF882C;
+    background-color: #ebf2ff;
     border-radius: 15px;
-    color: white;
+    color: #201F21;
     padding: 8px;
 }
 
 .btn2 {
-    background-color: #2C4B82;
+    background-color: #FF882C;
     border-radius: 15px;
     color: white;
     padding: 8px;
 }
 
 .sur1 {
-    background-color: #FF882C;
+    background-color: #ebf2ff;
     border-radius: 5px;
-    color: white;
+    color: #2C4B82;
     padding: 2px;
     
 }
@@ -324,12 +336,12 @@ section {
     border-width: 2px;
 }
 
-.rond-blanc{
-    background-color: white;
-    color: #2C4B82;
-    font-size: 100px;
-    border-radius: 100px;
-    height: 100%;
+.bulle {
+    background-color: #2C4B82;
+    border-radius: 15px 15px 15px 0px;
+    color: white;
+    padding: 8px;
+    font-size: 24px;
 }
 /*#FFD5B5*/
 /* ------------------------------
@@ -374,6 +386,10 @@ section {
 
 .bleu {
     color: #2C4B82;
+}
+
+.bleu-moyen{
+    color: #7396D4;
 }
 
 .orange {
@@ -444,4 +460,20 @@ li {
 
 i{
     font-size: 100px;
+}
+
+.hero{
+    height: 80vh;
+}
+
+.s-h1{
+    font-size: 96px;
+}
+
+.s-h2{
+    font-size: 64px;
+}
+
+.s-p{
+    font-size: 32px;
 }
