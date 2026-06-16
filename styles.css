@@ -348,6 +348,9 @@ section {
     background-color: #ebf2ff;
 }
 
+.bg-orange{
+    background-color: #FF882C;
+}
 /* ------------------------------
             POSITIONS
  ---------------------------------*/
@@ -375,6 +378,10 @@ section {
 
 .orange {
     color: #FF882C;
+}
+
+.orange-clair {
+    color: #FFD5B5;
 }
 
 a {
@@ -433,4 +440,8 @@ li {
     text-decoration: none;
     font-size: 24px;
 
+}
+
+i{
+    font-size: 100px;
 }
