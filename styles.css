@@ -313,6 +313,7 @@ section {
     border-radius: 15px;
     color: #201F21;
     padding: 8px;
+    font-size: 20px;
 }
 
 .btn2 {
@@ -320,9 +321,26 @@ section {
     border-radius: 15px;
     color: white;
     padding: 8px;
+    font-size: 20px;
 }
 
 .sur1 {
+    background-color: #ebf2ff;
+    border-radius: 5px;
+    color: #2C4B82;
+    padding: 2px;
+    
+}
+
+.sur2 {
+    background-color: #ebf2ff;
+    border-radius: 5px;
+    color: #2C4B82;
+    padding: 2px;
+    
+}
+
+.sur3 {
     background-color: #ebf2ff;
     border-radius: 5px;
     color: #2C4B82;
@@ -349,7 +367,9 @@ section {
  ---------------------------------*/
 
 .bgimg {
-    background-image: url(assets/hero\ img.png);
+    background-image: url(assets/pexels-tasso-mitsarakis-4849571-7745999.jpg);
+    background-position: 0%;
+    
 }
 
 .bg-bleu{
@@ -476,4 +496,14 @@ i{
 
 .s-p{
     font-size: 32px;
+}
+
+header{
+    z-index: 999;
+}
+
+
+.btn-hero{
+    font-size: 32px;
+    padding: 15px;
 }
