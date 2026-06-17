@@ -279,7 +279,7 @@
 }
 
 /* ------------------------------
-            SCROLL NAV
+            SCROLL NAV et Mise en page
  ---------------------------------*/
 
 body,
@@ -292,75 +292,21 @@ section {
     scroll-margin-top: 50px;
 }
 
-/* ------------------------------
-            CTA et CARD
- ---------------------------------*/
-.card {
-    border: solid 5px transparent;
-    border-radius: 15px;
-    background-color: #ebf2ff;
-    color: #201F21;
+
+
+
+
+.hero{
+    height: 90vh;
 }
 
-.card2 {
-    border: solid 5px transparent;
-    border-radius: 5px;
-    background-color: #ffffff;
+
+
+header{
+    z-index: 999;
 }
 
-.btn1 {
-    background-color: #ebf2ff;
-    border-radius: 15px;
-    color: #201F21;
-    padding: 8px;
-    font-size: 20px;
-}
 
-.btn2 {
-    background-color: #FF882C;
-    border-radius: 15px;
-    color: white;
-    padding: 8px;
-    font-size: 20px;
-}
-
-.sur1 {
-    background-color: #ebf2ff;
-    border-radius: 5px;
-    color: #2C4B82;
-    padding: 2px;
-    
-}
-
-.sur2 {
-    background-color: #ebf2ff;
-    border-radius: 5px;
-    color: #2C4B82;
-    padding: 2px;
-    
-}
-
-.sur3 {
-    background-color: #ebf2ff;
-    border-radius: 5px;
-    color: #2C4B82;
-    padding: 2px;
-    
-}
-
-.border-bottom{
-    border-bottom: solid;
-    color: #FF882C;
-    border-width: 2px;
-}
-
-.bulle {
-    background-color: #2C4B82;
-    border-radius: 15px 15px 15px 0px;
-    color: white;
-    padding: 8px;
-    font-size: 24px;
-}
 /*#FFD5B5*/
 /* ------------------------------
             BG
@@ -370,6 +316,10 @@ section {
     background-image: url(assets/pexels-tasso-mitsarakis-4849571-7745999.jpg);
     background-position: 0%;
     
+}
+
+.bg-orangeclair{
+    background-color: #FFD5B5 ;
 }
 
 .bg-bleu{
@@ -383,6 +333,17 @@ section {
 .bg-orange{
     background-color: #FF882C;
 }
+
+.bg-orange{
+    background-color: #FF882C;
+}
+    /* --- BG Doc --- */
+
+.bgherodoc {
+    background-image: url(assets/documentation/hero.png);
+    background-position: 0%;
+    
+}
 /* ------------------------------
             POSITIONS
  ---------------------------------*/
@@ -392,6 +353,9 @@ section {
     width: 100%;
 }
 
+.sticky{
+    position: sticky;
+}
 /* ------------------------------
             COULEUR
  ---------------------------------*/
@@ -482,8 +446,14 @@ i{
     font-size: 100px;
 }
 
-.hero{
-    height: 80vh;
+.ddl-p{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.ddl-titre{
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .s-h1{
@@ -494,16 +464,140 @@ i{
     font-size: 64px;
 }
 
-.s-p{
+.s-h3{
+    font-size: 48px;
+}
+
+.s-h4{
     font-size: 32px;
 }
-
-header{
-    z-index: 999;
+.s-p{
+    font-size: 24px;
 }
 
+.s-a{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.bold{
+    font-weight: 700;
+}
+
+
+
+
+/* ------------------------------
+            CTA et CARD
+ ---------------------------------*/
+.card {
+    border: solid 5px transparent;
+    border-radius: 15px;
+    background-color: #ebf2ff;
+    color: #201F21;
+    padding: 16px;
+}
+
+.card2 {
+    border: solid 5px transparent;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 16px;
+}
+
+.card3 {
+    border: solid 5px transparent;
+    border-radius: 5px;
+    background-color: #FF882C;
+    padding: 16px; 
+}
+
+.card3bis {
+    border: solid 5px transparent;
+    border-radius: 5px;
+    background-color: #FF882C;
+    padding: 8px; 
+}
+
+
+.card4 {
+    border: solid 5px transparent;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 8px; 
+}
+
+.card5 {
+    border: solid 5px transparent;
+    border-radius: 5px;
+    background-color: #7396D4;
+    padding: 16px; 
+}
+
+.btn1 {
+    background-color: #ebf2ff;
+    border-radius: 15px;
+    color: #201F21;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.btn2 {
+    background-color: #FF882C;
+    border-radius: 15px;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+}
 
 .btn-hero{
-    font-size: 32px;
-    padding: 15px;
+    padding: 15px 20px;
+}
+
+.sur1 {
+    background-color: #ebf2ff;
+    border-radius: 5px;
+    color: #2C4B82;
+    padding: 2px;
+    
+}
+
+.sur2 {
+    background-color: #ebf2ff;
+    border-radius: 5px;
+    color: #2C4B82;
+    padding: 2px;
+    
+}
+
+.sur3 {
+    background-color: #ebf2ff;
+    border-radius: 5px;
+    color: #2C4B82;
+    padding: 2px;
+    
+}
+
+.border-bottom{
+    border-bottom: solid;
+    color: #FF882C;
+    border-width: 2px;
+}
+
+.bulle {
+    background-color: #2C4B82;
+    border-radius: 15px 15px 15px 0px;
+    color: white;
+    padding: 8px;
+    font-size: 24px;
+}
+
+/* ----- DOCUMENTATION -----*/
+
+.card-per {
+    border: solid 5px transparent;
+    border-radius: 15px;
+    background-color: #ebf2ff;
+    padding: 16px;
 }

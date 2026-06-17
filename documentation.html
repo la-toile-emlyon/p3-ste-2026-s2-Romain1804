@@ -5,107 +5,219 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentation CoQuartier</title>
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
+    <header class="bg-bleu"> <!-- header romain -->
+        <div class="flex space-between align-center container-1200">
+            <div class="flex space-around align-center gap-16">
+                <img src="assets/logo.png" alt="Logo de CoQuartier" class="w-20">
+                <h2 class="w-70 white">CoQuartier</h2>
+            </div>
+            <nav class="flex space-between align-center gap-32">
+                <a href="index.html" class="btn1">landing page</a>
+                <a href="#telechargement" class="btn2">Télécharger</a>
 
+            </nav>
+        </div>
     </header>
-    <main>
-        <section> <!-- contexte -->
-            <h2>contexte</h2>
-            <div>
-                <div>
+    <section class="bgherodoc">
+        <div class="container-1000 flex align-center justify-center">
+            <h1 class="mt-64 mb-64 ">DOCUMENTATION</h1>
+        </div>
+    </section>
 
+    <div class="flex space-between align-start container-1000">
+        <div class="w-20 sticky"> <!-- sommaire -->
+            <div class="flex space-between align-center">
+                <h2 class="w-100">Sommaire</h2>
+                <ol>
+                    <a href="" class="w-100">Contexte</a>
+                    <a href="" class="w-100">Persona</a>
+                    <a href="" class="w-100">Problématique</a>
+                    <a href="" class="w-100">Userflow</a>
+                    <a href="" class="w-100">Solution</a>
+                    <a href="" class="w-100">Prototype Figma</a>
+                    <a href="" class="w-100">Tests utilisateurs</a>
+                    <a href="" class="w-100">Evolution, Equipe, Remercinement</a>
+                </ol>
+            </div>
+        </div>
+        <div class="w-75">
+            <section class="mt-64"> <!-- contexte -->
+                <h2>contexte</h2>
+                <div>
+                    <div class=" flex space-between">
+                        <div class="card3 w-45">
+                            <p>
+                                Pourquoi ?
+                                L’application CoQuartier a été conçue pour permettre aux personnes désireuses de
+                                participer
+                                à la vie de leur quartier, ou de rejoindre et créer des activités entre voisins.
+                            </p>
+                        </div>
+                        <div class="card3 w-45">
+                            <p>
+                                Qui ?
+                                Le public cible de CoQuartier est incarné par des profils comme Maxime, notre persona :
+                                des
+                                personnes qui cherchent à s’intégrer ou à renouer avec la vie de leur quartier.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card3 mt-32">
+                        <p>
+                            Comment ?
+                            Pour répondre à ce besoin, nous avons conçu une application qui permet aux habitants d’un
+                            même
+                            quartier de se retrouver autour de diverses activités. Ils peuvent ainsi créer leurs propres
+                            événements ou rejoindre ceux proposés par leurs voisins selon leurs centres d'intérêt.
+                        </p>
+                    </div>
                 </div>
+
+
+            </section>
+
+            <section class="bg-orangeclair mt-64"> <!-- persona -->
+                <div class="flex align-center justify-center pt-16 pb-32">
+                    <h2 class="w-90 mb-16 orange">Notre Persona</h2>
+                    <div class="card-per w-90 flex space-between align-center">
+                        <div class="w-48">
+                            <div class="flex space-between align-center mb-16">
+                                <img src="assets/documentation/Max.png" alt="persona" class="w-48">
+                                <div class="w-48">
+                                    <h3>Maxime</h3>
+                                    <p>Age : 30 ans</p>
+                                    <p>Metier : Manutantionnaire</p>
+                                    <p>Ville : Saint-Étienne, Carnot</p>
+                                </div>
+
+                            </div>
+                            <div class="card5 white">
+                                <h3>Background </h3>
+                                <p>Il sort de moins en moins de chez lui ; il lui est de plus en plus difficile d’aller
+                                    à la rencontre des autres. De son point de vue, rien ne se passe dans son quartier.
+                                    Il se renseigne via les réseaux sociaux, mais les informations liées aux activités
+                                    locales ne lui parviennent pas. Pourtant, Maxime a envie de rencontrer du monde, car
+                                    sa routine laisse la solitude s'installer.</p>
+                            </div>
+
+                        </div>
+                        <div class="w-48">
+                            <div class="card3bis white mb-16">
+                                <h3>Motivation</h3>
+                                <p>Rencontrer du monde et participer à la vie de son quartier.</p>
+                            </div>
+                            <div class="card4 bleu mb-16">
+                                <h3>Goal</h3>
+                                <p>Amener du dynamisme et de la vie dans le quartier et retrouver du lien humain</p>
+                            </div>
+                            <div class="card3bis white mb-16">
+                                <h3>Frustration</h3>
+                                <p>À du mal à évacuer ses tracas du travaille et se sent seul</p>
+                            </div>
+                            <div class="card4 bleu mb-16">
+                                <h3>Info diverses</h3>
+                                <p>Ne connais pas bien le fonctionnement assiosiatif et  comment créer des activité local (partenaire, budget, aval mairie etc.) </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-orange mt-64"> <!-- problématique -->
+                <h2>problématique</h2>
+                <div>
+                    <div class="flex">
+                        <p class="w-100">Comment <span class="bold">investir</span> Maxime et
+                            ses voisins <span class="bold">dans la vie local de son quartier </span>?</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="mt-64"> <!-- userflow -->
+                <h2>userflow</h2>
+                <div>
+                    <img src="assets/documentation/userflow/Userflow.png" alt="userflow">
+                </div>
+            </section>
+
+            <section class="bg-orangeclair mt-64"> <!-- solution -->
+                <h2>solution</h2>
+                <p>Nous avons créer une application qui permet au personnes de rejoindre ou créer des activités divers
+                    et varié
+                    entre membres d’un même quartier ou encore de s’entraider sur divers sujet tels que des activites
+                    administratives. De plus, un des but de l’application est de creer des liens sociaux au sein d’un
+                    quartier
+                </p>
+                <div><img src="" alt="">
+                </div>
+
+            </section>
+
+            <section class="mt-64"> <!-- processus -->
+                <div> <!-- wireframe -->
+                    <img src="" alt="">
+                </div>
+
+                <div> <!-- mid-fi -->
+                    <img src="" alt="">
+                </div>
+
+                <div> <!-- hi-fi -->
+                    <img src="" alt="">
+                </div>
+                <a href="https://www.figma.com/proto/M3iFbEALe6GZxcDkTDtyfJ/Groupe-5---Coquartier?node-id=552-1498&t=SMdiqYMubKtgYavc-0&scaling=scale-down&content-scaling=fixed&page-id=279%3A1573&starting-point-node-id=552%3A1498&show-proto-sidebar=1"
+                    target="_blank">Notre scénario de test</a>
+            </section>
+
+            <section class="mt-64"> <!-- test utilisateur -->
+                <h2> test utilisateur</h2>
+                <p>les test utilisateurs nous ont permis de mettre en lumiere certains defaut lors de la V1 notamment
+                    l'ergonomie et la mise en forme de certains bouton ou page</p>
+                <div>
+                    <div>
+                        <img src="assets/documentation/wireframes/test utilisateur/test utilisateur V1.png" alt="V1">
+                        <h3>V1</h3>
+                    </div>
+                    <div>
+                        <img src="assets/documentation/wireframes/test utilisateur/test utilisateur V2.png" alt="V2">
+                        <h3>V2</h3>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="mt-64"> <!-- équipe -->
                 <div>
                     <div></div>
                     <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
-            </div>
+            </section>
 
-
-        </section>
-
-        <section> <!-- persona -->
-            <h2>persona</h2>
-            <img src="" alt="persona">
-        </section>
-
-        <section> <!-- problématique -->
-            <h2>problématique</h2>
-            <div>
-                <div>
-                    <p></p>
-                </div>
-            </div>
-
-        </section>
-
-        <section> <!-- userflow -->
-            <h2>userflow</h2>
-            <div>
-                <img src="" alt="userflow">
-            </div>
-        </section>
-
-        <section> <!-- processus -->
-            <div> <!-- wireframe -->
-                <img src="" alt="">
-            </div>
-
-            <div> <!-- mid-fi -->
-                <img src="" alt="">
-            </div>
-
-            <div> <!-- hi-fi -->
-                <img src="" alt="">
-            </div>
-        </section>
-
-        <section> <!-- test utilisateur -->
-            <h2> test utilisateur</h2>
-            <p></p>
-            <div>
-                <div>
-                    <img src="" alt="V1">
-                    <h3>V1</h3>
-                </div>
-                <div>
-                    <img src="" alt="V2">
-                    <h3>V2</h3>
-                </div>
-            </div>
-
-        </section>
-
-        <section> <!-- solution -->
-            <h2></h2>
-            <p></p>
-            <div><img src="" alt="">
-            </div>
-
-        </section>
-
-        <section> <!-- équipe -->
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </section>
-
-        <section> <!-- remerciement -->
-            <h2></h2>
-            <p></p>
-        </section>
-    </main>
-    <footer>
+            <section class="mt-64"> <!-- remerciement -->
+                <h2></h2>
+                <p></p>
+            </section>
+        </div>
+    </div>
+    <footer class="flex space-between align-center mt-64 mb-64">
         <h2>télécharger l'application ici</h2>
-        <i></i> <!-- apple store -->   <i></i><!-- play store -->
+        <i></i> <!-- apple store --> <i></i><!-- play store -->
         <div>
             <div>
                 <a href="">politique</a>
