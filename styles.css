@@ -356,6 +356,11 @@ header{
 .sticky{
     position: sticky;
 }
+
+.sticky-header{
+    position: sticky;
+    top: 0;
+}
 /* ------------------------------
             COULEUR
  ---------------------------------*/
