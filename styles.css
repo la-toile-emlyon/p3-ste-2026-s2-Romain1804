@@ -525,7 +525,7 @@ i{
 
 .card3 {
     border: solid 5px transparent;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #FF882C;
     padding: 16px; 
 }
@@ -632,4 +632,12 @@ i{
 
 .radius-20{
     border-radius: 20px;
+}
+
+
+.border{
+    border: 2px solid #7396D4;
+    
+    border-radius: 20px;
+    
 }
