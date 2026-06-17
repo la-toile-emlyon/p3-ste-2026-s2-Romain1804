@@ -25,7 +25,7 @@
             </div>
             <nav class="flex space-between align-center gap-32">
                 <a href="index.html" class="btn1">landing page</a>
-                <a href="#telechargement" class="btn2">Télécharger</a>
+                <a href="#ddl" class="btn2">Télécharger</a>
 
             </nav>
         </div>
@@ -36,25 +36,26 @@
         </div>
     </section>
 
-    <div class="flex space-between align-start container-1000">
-        <div class="w-20 sticky"> <!-- sommaire -->
-            <div class="flex space-between align-center">
-                <h2 class="w-100">Sommaire</h2>
-                <ol>
-                    <a href="" class="w-100">Contexte</a>
-                    <a href="" class="w-100">Persona</a>
-                    <a href="" class="w-100">Problématique</a>
-                    <a href="" class="w-100">Userflow</a>
-                    <a href="" class="w-100">Solution</a>
-                    <a href="" class="w-100">Prototype Figma</a>
-                    <a href="" class="w-100">Tests utilisateurs</a>
-                    <a href="" class="w-100">Evolution, Equipe, Remercinement</a>
-                </ol>
+    <div class="flex space-between container-1000 mt-64">
+        <div class="w-20">
+            <!-- sommaire -->
+            <div class="flex space-between align-center sticky-som card-som">
+                <h2 class="w-100 mb-16">Sommaire</h2>
+                <nav>
+                    <a href="#contexte">Contexte</a>
+                    <a href="#persona">Persona</a>
+                    <a href="#problematique">Problématique</a>
+                    <a href="#userflow">Userflow</a>
+                    <a href="#solution">Solution</a>
+                    <a href="#Prototype Figma">Prototype Figma</a>
+                    <a href="#tests utilisateurs">Tests utilisateurs</a>
+                    <a href="#evolution equipe remerciement">Évolution, Équipe, Remerciment</a>
+                </nav>
             </div>
         </div>
         <div class="w-75">
-            <section class="mt-64"> <!-- contexte -->
-                <h2>contexte</h2>
+            <section id="contexte"> <!-- contexte -->
+                <h2 class="orange">Contexte</h2>
                 <div>
                     <div class=" flex space-between">
                         <div class="card3 w-45">
@@ -88,7 +89,7 @@
 
             </section>
 
-            <section class="bg-orangeclair mt-64"> <!-- persona -->
+            <section id="persona" class="bg-orangeclair mt-64"> <!-- persona -->
                 <div class="flex align-center justify-center pt-16 pb-32">
                     <h2 class="w-90 mb-16 orange">Notre Persona</h2>
                     <div class="card-per w-90 flex space-between align-center">
@@ -97,19 +98,21 @@
                                 <img src="assets/documentation/Max.png" alt="persona" class="w-48">
                                 <div class="w-48">
                                     <h3>Maxime</h3>
-                                    <p>Age : 30 ans</p>
-                                    <p>Metier : Manutantionnaire</p>
+                                    <p>Âge : 30 ans</p>
+                                    <p>Métier : Manutantionnaire</p>
                                     <p>Ville : Saint-Étienne, Carnot</p>
                                 </div>
 
                             </div>
                             <div class="card5 white">
                                 <h3>Background </h3>
-                                <p>Il sort de moins en moins de chez lui ; il lui est de plus en plus difficile d’aller
+                                <p>
+                                    Il sort de moins en moins de chez lui ; il lui est de plus en plus difficile d’aller
                                     à la rencontre des autres. De son point de vue, rien ne se passe dans son quartier.
                                     Il se renseigne via les réseaux sociaux, mais les informations liées aux activités
                                     locales ne lui parviennent pas. Pourtant, Maxime a envie de rencontrer du monde, car
-                                    sa routine laisse la solitude s'installer.</p>
+                                    sa routine laisse la solitude s'installer.
+                                </p>
                             </div>
 
                         </div>
@@ -137,8 +140,8 @@
                 </div>
             </section>
 
-            <section class="bg-orange mt-64 p-16 white"> <!-- problématique -->
-                <h2>problématique</h2>
+            <section id="problematique" class="bg-orange mt-64 p-16 white"> <!-- problématique -->
+                <h2>Problématique</h2>
                 <div>
                     <div class="flex">
                         <p class="w-100">Comment <span class="bold">investir</span> Maxime et
@@ -148,15 +151,15 @@
 
             </section>
 
-            <section class="mt-64"> <!-- userflow -->
-                <h2>userflow</h2>
+            <section id="userflow" class="mt-64"> <!-- userflow -->
+                <h2 class="orange">Userflow</h2>
                 <div>
                     <img src="assets/documentation/userflow/Userflow.png" alt="userflow" class="w-100">
                 </div>
             </section>
 
-            <section class="bg-orangeclair mt-64"> <!-- solution -->
-                <h2>solution</h2>
+            <section id="solution" class="bg-orangeclair mt-64"> <!-- solution -->
+                <h2>Solution</h2>
                 <p>Nous avons créer une application qui permet au personnes de rejoindre ou créer des activités divers
                     et varié
                     entre membres d’un même quartier ou encore de s’entraider sur divers sujet tels que des activites
@@ -168,8 +171,8 @@
 
             </section>
 
-            <section class="mt-64"> <!-- processus -->
-                <!--
+            <section class="mt-64 bg-orange"> <!-- processus -->
+                <!-- Carrousel (Abord)
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -186,7 +189,21 @@
                 </div>
 
                 -->
-                <div>
+                <h2 class="black">Processus</h2>
+                <div> <!-- Écran Accueil-->
+                    <div class="w-30"> <!-- wireframe -->
+                        <img src="assets/documentation/wireframes/croquis/Accueil.png" alt="">
+                    </div>
+
+                    <div class="w-30"> <!-- mid-fi -->
+                        <img src="" alt="">
+                    </div>
+
+                    <div class="w-30"> <!-- hi-fi -->
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div> <!-- Écran Invitation-->
                     <div class="w-30"> <!-- wireframe -->
                         <img src="" alt="">
                     </div>
@@ -199,29 +216,60 @@
                         <img src="" alt="">
                     </div>
                 </div>
-                <a href="https://www.figma.com/proto/M3iFbEALe6GZxcDkTDtyfJ/Groupe-5---Coquartier?node-id=552-1498&t=SMdiqYMubKtgYavc-0&scaling=scale-down&content-scaling=fixed&page-id=279%3A1573&starting-point-node-id=552%3A1498&show-proto-sidebar=1"
-                    target="_blank">Notre scénario de test</a>
+                <div> <!-- Écran Création d'activité-->
+                    <div class="w-30"> <!-- wireframe -->
+                        <img src="" alt="">
+                    </div>
 
+                    <div class="w-30"> <!-- mid-fi -->
+                        <img src="" alt="">
+                    </div>
+
+                    <div class="w-30"> <!-- hi-fi -->
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div> <!-- Écran Planning-->
+                    <div class="w-30"> <!-- wireframe -->
+                        <img src="" alt="">
+                    </div>
+
+                    <div class="w-30"> <!-- mid-fi -->
+                        <img src="" alt="">
+                    </div>
+
+                    <div class="w-30"> <!-- hi-fi -->
+                        <img src="" alt="">
+                    </div>
+                </div>
+
+                <h2 id="Prototype Figma" class="">Notre Prototype</h2>
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); background-color: transparent;" width="100%" height="450" src="https://embed.figma.com/proto/M3iFbEALe6GZxcDkTDtyfJ/Groupe-5---Coquartier?node-id=552-1498&scaling=scale-down&content-scaling=fixed&page-id=279%3A1573&starting-point-node-id=552%3A1498&embed-host=share" allowfullscreen></iframe>
             </section>
 
-            <section class="mt-64 bg-orangeclair"> <!-- test utilisateur -->
-                <h2> test utilisateur</h2>
-                <p>les test utilisateurs nous ont permis de mettre en lumiere certains defaut lors de la V1 notamment
-                    l'ergonomie et la mise en forme de certains bouton ou page</p>
-                <div>
-                    <div>
-                        <img src="assets/documentation/wireframes/test utilisateur/test utilisateur V1.png" alt="V1" class="w-100">
-                        <h3>V1</h3>
+            <section id="tests utilisateurs" class="mt-64 bg-orangeclair"> <!-- test utilisateur -->
+                <h2>Tests utilisateurs</h2>
+                <p class="mb-16">les test utilisateurs nous ont permis de mettre en lumiere certains defaut lors de la
+                    V1 notamment l'ergonomie et la mise en forme de certains bouton ou page</p>
+                <div class="flex space-between align-start">
+                    <div class="w-48">
+                        <h3 class="text-center">V1 de l'application CoQuartier</h3>
+                        <img src="assets/documentation/wireframes/test utilisateur/test utilisateur V1.png" alt="V1"
+                            class="w-100">
+
                     </div>
-                    <div>
-                        <img src="assets/documentation/wireframes/test utilisateur/test utilisateur V2.png" alt="V2" class="w-100">
-                        <h3>V2</h3>
+                    <div class="w-48">
+                        <h3>V2 de l'application CoQuartier</h3>
+                        <img src="assets/documentation/wireframes/test utilisateur/test utilisateur V2.png" alt="V2"
+                            class="w-100">
+
                     </div>
                 </div>
 
             </section>
 
-            <section class="mt-64"> <!-- équipe -->
+            <section id="evolution equipe remerciement" class="mt-64"> <!-- équipe -->
+               <h3>l'équipe du Projet CoQuartier</h3>
                 <div>
                     <div></div>
                     <div></div>
@@ -231,21 +279,37 @@
             </section>
 
             <section class="mt-64"> <!-- remerciement -->
-                <h2></h2>
-                <p></p>
+                <h2>Les remerciement</h2>
+                <p>Nous vous remercions de votre attention et du temps que vous nous avez accordé.
+                    Nous esperons que cette presentation vous aura interesse. </p>
             </section>
         </div>
     </div>
-    <footer class="flex space-between align-center mt-64 mb-64">
-        <h2>télécharger l'application ici</h2>
-        <i></i> <!-- apple store --> <i></i><!-- play store -->
-        <div>
-            <div>
-                <a href="">politique</a>
-                <a href="">mention légal</a>
-            </div>
-            <div>
+    <footer class="flex space-between align-center mt-64 mb-64 bg-orange">
+        <div class="flex space-around align-center container-1000" id="ddl">
+            <div class="flex space-between align-center mb-32 w-48">
+                <h2 class="mb-16">Téléchargez l'application ici</h2>
 
+                <img src="assets/bouton app store.png" alt="" class="w-48"> <!-- apple store -->
+                <img src="assets/bouton google play.png" alt="" class="w-48"><!-- play store -->
+            </div>
+            <div class="w-48 flex space-between align-start">
+                <div class="flex space-between align-center  mt-64 mb-16">
+                    <div class="w-100">
+                        <a href="">Politique</a>
+                        <a href="">Mentions légals</a>
+                    </div>
+                    <img src="assets/logo.png" alt="" class="w-20">
+
+                    <h3 class="white s-h3 w-75">CoQuartier</h3>
+                </div>
+                <nav class="flex align-center justify-end w-100">
+                    <a href=""><i class="ph ph-facebook-logo white w-20 s-h3"></i></a>
+                    <a href=""><i class="ph ph-linkedin-logo white w-20 s-h3"></i></a>
+                    <a href=""><i class="ph ph-x-logo white w-20 s-h3"></i></a>
+                    <a href=""><i class="ph ph-instagram-logo white w-20 s-h3"></i></a>
+
+                </nav>
             </div>
         </div>
     </footer>
