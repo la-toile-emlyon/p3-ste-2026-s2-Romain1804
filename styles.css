@@ -237,19 +237,19 @@
     padding-bottom: 32px;
 }
 
+.pt-64 {
+    padding-top: 64px;
+}
+
+.pb-64 {
+    padding-bottom: 64px;
+}
+
 .pt-128 {
     padding-top: 128px;
 }
 
 .pb-128 {
-    padding-bottom: 128px;
-}
-
-.mt-128 {
-    padding-top: 128px;
-}
-
-.mb-128 {
     padding-bottom: 128px;
 }
 
