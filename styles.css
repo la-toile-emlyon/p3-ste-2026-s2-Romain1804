@@ -343,6 +343,7 @@ header{
 .bgimg {
     background-image: url(assets/pexels-tasso-mitsarakis-4849571-7745999.jpg);
     background-position: 0%;
+    height: 85vh;
     
 }
 
@@ -370,6 +371,7 @@ header{
     background-color: #7396D4;
     color: white;
     padding: 2px;
+
 }
     /* --- BG Doc --- */
 

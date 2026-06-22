@@ -17,8 +17,8 @@
 </head>
 
 <body>
-    <header class="fixed bg-bleu"> <!-- header romain -->
-        <div class="flex space-between align-center container-1000 mb-8 mt-8">
+    <header class="sticky-header bg-bleu"> <!-- header romain -->
+        <div class="flex space-between align-center container-1000 pb-8 pt-8">
             <div class="flex space-around align-center gap-16">
                 <img src="assets/logo.png" alt="Logo de CoQuartier" class="w-20">
                 <h2 class="w-70 white">CoQuartier</h2>
@@ -32,10 +32,10 @@
     </header>
     <main>
         <section id="présentation" class="bgimg hero"> <!-- hero -->
-            <div class="flex space-between align-start container-1000 pb-128">
-                <h1 class="pt-128 w-100 white">CoQuartier</h1>
+            <div class="flex space-between align-start container-1000">
+                <h1 class="pt-64 w-100 white">CoQuartier</h1>
                 <h2 class="pt-32 pb-32 white mb-16">Coquartier remet le lien au coeur du quartier</h2>
-                <p class="sur3 mb-16 s-p">Créer, rejoignez, organisez, la vie de votre quartier </p><br>
+                <p class="sur3 mb-16 s-p">Créez, rejoignez, organisez, la vie de votre quartier </p><br>
                 <p class="sur1 s-p mb-32">en vous reconnectant à vos
                     voisins</p>
                 <div class="w-100 mb-64">
@@ -52,11 +52,11 @@
                 <div class="flex space-between align-center">
                     <div class="w-45">
                         <h2 class="w-100 mb-32">Nos missions</h2>
-                        <ul class="bleu"> Notre application a pour but de :
+                        <ul class="bleu">
                             <li class="mt-16 mb-16">Créer des activités</li>
                             <li>Renforcer le lien social</li>
                             <li class="mt-16 mb-16">Trouver de l’aide a proximite</li>
-                            <li>Mettre en relation</li>
+                            <li>Tisser du lien entre les habitants</li>
                             <li class="mt-16 mb-16" >Favoriser l’inclusion</li>
                         </ul>
                     </div>
@@ -68,7 +68,7 @@
         <section id="fonctionnalité" class="bg-bleuclair"> <!-- Fonctionnalité -->
             <div class="container-1000 flex space-between align-center pt-64 pb-64">
                 <h2 class="w-100 black mb-16 text-center">Fonctionnalités</h2>
-                <p class="w-100 black mb-64">Après avoir téléchargez notre application, voici ce que vous pouvez faire :
+                <p class="w-100 black mb-64">Après avoir téléchargé notre application, voici ce que vous pourrez faire :
                 </p>
 
                 <!-- slider -->
@@ -191,21 +191,21 @@
 
         <section id="nos chiffre" class="bg-bleu flex"> <!-- Nos chiffres -->
             <div class="flex container-1000 align-center justify-center  pt-64 pb-64">
-                <h2 class="white mb-16">Nos chiffres</h2>
+                <h2 class="white mb-16">CoQuartiers en quelques chiffres</h2>
                 <div class="flex space-between align-center mt-32">
                     <div class="w-30"> <!-- chiffre 1 -->
                         <p class="card-chiffre">+1M</p>
-                        <p class="white mt-32 text-center">Plus de 1 million de personne on téléchargé notre application</p>
+                        <p class="white mt-32 text-center">Plus de 1 million de personnes ont téléchargé notre application</p>
                     </div>
 
                     <div class="w-30"><!-- chiffre 2 -->
                         <p class="card-chiffre">+10000</p>
-                        <p class="white mt-32 text-center">Plus de 10 000 quartiers utilise notre application</p>
+                        <p class="white mt-32 text-center">Plus de 10 000 quartiers utilisent notre application</p>
                     </div>
 
                     <div class="w-30"><!-- chiffre 3 -->
                         <p class="card-chiffre">2500</p>
-                        <p class="white mt-32 text-center">Coquartier est déployé dans plus de 2500 ville et communes</p>
+                        <p class="white mt-32 text-center">Coquartier est déployé dans plus de 2500 villes et communes</p>
                     </div>
                 </div>
             </div>
@@ -243,7 +243,7 @@
                             </div>
                         </div>
                         <div class="flex justify-center">
-                            <p class="w-90">“L’application Coquartier est tres simple d’utilisation même pour une
+                            <p class="w-90">“L’application Coquartier est très simple d’utilisation même pour une
                                 personne
                                 de mon âge ”</p>
                         </div>
@@ -259,7 +259,7 @@
                             </div>
                         </div>
                         <div class="flex align-center justify-center">
-                            <p class="w-90">“J’ai facilement pu créer un groupe avec des voisins avec lesquels je
+                            <p class="w-90">“J’ai facilement pu créer un groupe avec des voisins. avec lesquels je
                                 n’aurais
                                 jamais échangé auparavant.”</p>
                         </div>
@@ -272,62 +272,69 @@
             <div class="flex space-between container-1000 pt-64 pb-64">
                 <h2 class="w-100 mb-64 text-center">Avantages et bénéfices</h2>
 
-                <div class="card2 w-30 mb-64 p-16"> <!-- avantage 1 -->
-                    <i class="ph ph-map-trifold bleu-moyen icon-size"></i>
-                    <div>
-                        <h3 class="orange mb-16">La proximité</h3>
-                        <p>Plus besoin de traverser la ville ou de prendre la voiture. Toutes les activités se déroulent
+                <div class="card2 w-30 mb-64 p-16"> <!-- avantage 1 --><div class="flex align-center space-between">
+                    <i class="ph ph-map-trifold bleu-moyen icon-size w-20"></i>
+                    <h3 class="orange w-75 mb-16">Proximité et praticité</h3>
+                    </div>
+                    <p>Plus besoin de traverser la ville ou de prendre la voiture. Toutes les activités se déroulent
                             à
                             quelques minutes à pied de chez soi.</p>
-                    </div>
+                    
                 </div>
 
                 <div class="card2 w-30 mb-64 p-16"> <!-- avantage 2 -->
-                    <i class="ph ph-thumbs-up bleu-moyen icon-size"></i>
-                    <div>
-                        <h3 class="orange mb-16">Simplicité et Spontanéité</h3>
-                        <p>Vous pouvez crée un groupe ou une activité rapidement et facilement</p>
+                    <div class="flex align-center space-between">
+                    <i class="ph ph-thumbs-up bleu-moyen icon-size w-20"></i>
+                    
+                        <h3 class="orange mb-16 w-75">Simplicité et Spontanéité</h3>
                     </div>
+                        <p>Vous pouvez créer un groupe ou une activité rapidement et facilement.</p>
+                    
                 </div>
 
                 <div class="card2 w-30 mb-64 p-16"> <!-- avantage 3 -->
-                    <i class="ph ph-city bleu-moyen icon-size"></i>
-                    <div>
-                        <h3 class="orange mb-16">Valorisation du quartier</h3>
-                        <p>Plus besoin de traverser la ville ou de prendre la voiture. Toutes les activités se déroulent
-                            à
-                            quelques minutes à pied de chez soi.</p>
+                    <div class="flex align-center space-between">
+                    <i class="ph ph-city bleu-moyen icon-size w-20"></i>
+                    
+                        <h3 class="orange mb-16 w-75">Valorisation du quartier</h3>
                     </div>
+                        <p>Ramène du liens entre les habitants et dynamise la vie du quartier. Développe également un réel sens du collectif.</p>
+                    
                 </div>
 
                 <div class="card2 w-30 mb-64 p-16"> <!-- avantage 4 -->
-                    <i class="ph ph-user-sound bleu-moyen icon-size"></i>
-                    <div>
-                        <h3 class="orange mb-16">Rupture de l’isolement</h3>
+                    <div class="flex align-center space-between">
+                    <i class="ph ph-user-sound bleu-moyen icon-size w-20"></i>
+                    
+                        <h3 class="orange mb-16 w-75">Rupture de l’isolement</h3></div>
                         <p>Permet de rencontrer facilement ses voisins autour d'intérêts communs (sport, jeux de
                             société,
                             cuisine, jardinage). C'est idéal pour les nouveaux arrivants.</p>
-                    </div>
+                    
                 </div>
 
                 <div class="card2 w-30 mb-64 p-16"> <!-- avantage 5 -->
-                    <i class="ph ph-link bleu-moyen icon-size"></i>
-                    <div>
-                        <h3 class="orange mb-16">Renforcement du lien social</h3>
+                    <div class="flex align-center space-between">
+                    <i class="ph ph-link bleu-moyen icon-size w-20"></i>
+                    
+                        <h3 class="orange mb-16 w-75">Renforcement du lien social</h3>
+                    </div>
                         <p>Crée un tissu communautaire plus serré, plus solidaire et plus sûr. Quand on connaît ses
                             voisins,
                             on s'entraide plus facilement.</p>
-                    </div>
+                    
                 </div>
 
                 <div class="card2 w-30 mb-64 p-16"> <!-- avantage 6 -->
-                    <i class="ph ph-handshake bleu-moyen icon-size"></i>
-                    <div>
-                        <h3 class="orange mb-16">Entraide naturelle</h3>
+                    <div class="flex align-center space-between">
+                    <i class="ph ph-handshake bleu-moyen icon-size w-20"></i>
+                    
+                        <h3 class="orange mb-16 w-75">Entraide naturelle</h3>
+                    </div>
                         <p>Une activité partagée (comme le jardinage ou le bricolage) débouche souvent sur de la
                             solidarité
                             au quotidien (prêt d'outils, garde d'animaux, etc.).</p>
-                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -336,8 +343,8 @@
 
                 <div class="w-48">
                     <h2 class="white mb-32 ddl-titre">Prêt à donner vie à votre quartier ?</h2>
-                    <p class="orange-clair mb-32 ddl-p">Alors <span class="bg-telecharger">téléchargez</span> notre application, disponible sur tout les
-                        store</p>
+                    <p class="orange-clair mb-32 ddl-p">Alors, <span class="bg-telecharger">téléchargez</span> notre application, disponible sur tous les
+                        stores !</p>
                     <div>
                         <a href="" class="w-48"><img src="assets/bouton app store.png" alt="" class="w-40"></a>
                         <a href="" class="w-48"><img src="assets/bouton google play.png" alt="" class="w-40"></a>
@@ -353,13 +360,13 @@
             <div class=" class w-48 flex space-between align-center mb-64 mt-64">
                 <h3 class="white mb-16 s-h4">Plan du site</h3>
                 <div class="flex justify-start align-center">
-                    <a href="#présentation" class="w-100 white mb-8 6 -a">Accueil</a>
-                    <a href="#pourquoi ?" class="w-100 white mb-8 6 -a">Notre mission</a>
-                    <a href="#fonctionnalité" class="w-100 white mb-8 6 -a">Fonctionnalité</a>
-                    <a href="#nos chiffre" class="w-100 white mb-8 6 -a">CoQuartier en chiffre</a>
-                    <a href="#avis" class="w-100 white mb-8 6 -a">Avis Clients</a>
-                    <a href="#avantage mb-16 s-a" class="w-100 white mb-8 6 -a">Aventages et bénéfices</a>
-                    <a href="#telechargement" class="w-100 white s-a">Télécharger notre app</a>
+                    <a href="#présentation" class="w-100 white mb-8">Accueil</a>
+                    <a href="#pourquoi ?" class="w-100 white mb-8">Notre mission</a>
+                    <a href="#fonctionnalité" class="w-100 white mb-8">Fonctionnalité</a>
+                    <a href="#nos chiffre" class="w-100 white mb-8">CoQuartiers en quelques chiffres</a>
+                    <a href="#avis" class="w-100 white mb-8">Avis Clients</a>
+                    <a href="#avantage mb-16 s-a" class="w-100 white mb-8">Aventages et bénéfices</a>
+                    <a href="#telechargement" class="w-100 white">Télécharger notre app</a>
                 </div>
 
             </div>
