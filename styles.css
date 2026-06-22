@@ -365,6 +365,12 @@ header{
 .bg-orange{
     background-color: #FF882C;
 }
+
+.bg-telecharger{
+    background-color: #7396D4;
+    color: white;
+    padding: 2px;
+}
     /* --- BG Doc --- */
 
 .bgherodoc {
