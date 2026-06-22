@@ -18,7 +18,7 @@
 
 <body>
     <header class="fixed bg-bleu"> <!-- header romain -->
-        <div class="flex space-between align-center container-1000">
+        <div class="flex space-between align-center container-1000 mb-8 mt-8">
             <div class="flex space-around align-center gap-16">
                 <img src="assets/logo.png" alt="Logo de CoQuartier" class="w-20">
                 <h2 class="w-70 white">CoQuartier</h2>
@@ -45,13 +45,13 @@
 
         </section>
 
-        <section id="pourquoi ?"> <!-- Nos Missions  -->
+        <section id="pourquoi ?" class="flex"> <!-- Nos Missions  -->
 
-            <div class="flex space-between align-center container-1000">
+            <div class="flex space-between align-center container-1000 pt-64 pb-64">
 
                 <div class="flex space-between align-center">
-                    <div class="w-45 mt-64">
-                        <h2 class="w-100 mt-64 mb-64">Nos missions</h2>
+                    <div class="w-45">
+                        <h2 class="w-100">Nos missions</h2>
                         <ul class="bleu"> Notre application a pour but de :
                             <li>Créer des activités</li>
                             <li>Renforcer le lien social</li>
@@ -61,50 +61,104 @@
                         </ul>
                     </div>
 
-                    <img src="assets/mock-up-hero.png" alt="mockup" class="w-50 mb-64">
+                    <img src="assets/mock-up-hero.png" alt="mockup" class="w-50">
                 </div>
             </div>
         </section>
         <section id="fonctionnalité" class="bg-bleuclair"> <!-- Fonctionnalité -->
-            <div class="container-1000 flex space-between align-center">
-                <h2 class="w-100 black mt-64 mb-64 text-center">Fonctionnalité</h2>
-                <p class="w-100 black mb-32">Après avoir télécharger notre application voici ce que vous pouvez faire
+            <div class="container-1000 flex space-between align-center pt-64 pb-64">
+                <h2 class="w-100 black mb-16 text-center">Fonctionnalité</h2>
+                <p class="w-100 black mb-16">Après avoir télécharger notre application voici ce que vous pouvez faire
                 </p>
 
                 <!-- slider -->
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="flex space-around align-start"> <!-- fonctionnalité 1 -->
-                                <img src="assets/fonctionalite/accueil mockup 1.png" alt="" class="w-30 mb-64">
-                                <p class="w-48 bulle ">Participez aux sondages de votre quartier</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="flex space-around align-start"><!-- fonctionnalité 2 -->
-                                <img src="assets/fonctionalite/créer ton activité (2) 1.png" alt="" class="w-30 mb-64">
-                                <p class="w-48 bulle ">Créer votre activité et référencez la</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="flex space-around align-start"><!-- fonctionnalité 3 -->
-                                <img src="assets/fonctionalite/map (2) 1.png" alt="" class="w-30 mb-64">
-                                <p class="w-48 bulle ">Inviter des membres à votre groupe</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="flex space-around align-start"><!-- fonctionnalité 4 -->
-                                <img src="assets/fonctionalite/planning (2) 1.png" alt="" class="w-30 mb-64">
-                                <p class="w-48 bulle ">Consulter votre planning intégrer dans notre application</p>
-                            </div>
-                        </div>
+                
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="flex space-around align-start"> <!-- fonctionnalité 1 -->
+                                                <img src="assets/fonctionalite/accueil mockup 1.png" alt=""
+                                                    class="w-30 mb-64">
+                                                <p class="w-48 bulle ">Participez aux sondages de votre quartier</p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flex space-around align-start"><!-- fonctionnalité 2 -->
+                                                <img src="assets/fonctionalite/créer ton activité (2) 1.png" alt=""
+                                                    class="w-30 mb-64">
+                                                <p class="w-48 bulle ">Créer votre activité et référencez la</p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flex space-around align-start"><!-- fonctionnalité 3 -->
+                                                <img src="assets/fonctionalite/map (2) 1.png" alt="" class="w-30 mb-64">
+                                                <p class="w-48 bulle ">Inviter des membres à votre groupe</p>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flex space-around align-start"><!-- fonctionnalité 4 -->
+                                                <img src="assets/fonctionalite/planning (2) 1.png" alt=""
+                                                    class="w-30 mb-64">
+                                                <p class="w-48 bulle ">Consulter votre planning intégrer dans notre
+                                                    application
+                                                </p>
+                                            </div>
+                                        </div>
 
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
+                                    </div>
+
+                                    <div class="swiper-button-prev">
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                    
                 </div>
 
+                <!--<div class="flex space-between align-center">
+                    <div class="w-10">
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="w-75">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="flex space-around align-start"> 
+                                        <img src="assets/fonctionalite/accueil mockup 1.png" alt="" class="w-30 mb-64">
+                                        <p class="w-48 bulle ">Participez aux sondages de votre quartier</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="flex space-around align-start">
+                                        <img src="assets/fonctionalite/créer ton activité (2) 1.png" alt=""
+                                            class="w-30 mb-64">
+                                        <p class="w-48 bulle ">Créer votre activité et référencez la</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="flex space-around align-start">
+                                        <img src="assets/fonctionalite/map (2) 1.png" alt="" class="w-30 mb-64">
+                                        <p class="w-48 bulle ">Inviter des membres à votre groupe</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="flex space-around align-start">
+                                        <img src="assets/fonctionalite/planning (2) 1.png" alt="" class="w-30 mb-64">
+                                        <p class="w-48 bulle ">Consulter votre planning intégrer dans notre application
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="w-10">
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
 
 
                 <!--  
@@ -130,9 +184,9 @@
 -->
         </section>
 
-        <section id="nos chiffre" class="bg-bleu"> <!-- Nos chiffres -->
-            <div class="flex container-1000 align-center justify-center mb-128">
-                <h2 class="white mt-64">Nos chiffres</h2>
+        <section id="nos chiffre" class="bg-bleu flex"> <!-- Nos chiffres -->
+            <div class="flex container-1000 align-center justify-center  pt-64 pb-64">
+                <h2 class="white">Nos chiffres</h2>
                 <div class="flex space-between align-center mt-32">
                     <div class="w-30"> <!-- chiffre 1 -->
                         <img src="assets/chiffre +1M.png" alt="">
@@ -152,10 +206,11 @@
             </div>
         </section>
 
-        <section id="avis"><!-- Avis client  -->
-            <div class="container-1000 flex align-center space-between mb-96">
+        <section id="avis" class="flex"><!-- Avis client  -->
+            <div class="container-1000 flex align-center space-between  pt-64 pb-64">
                 <div class="w-100">
-                <h2 class="mb-64 text-center">Avis client</h2></div>
+                    <h2 class="mb-64 text-center">Avis client</h2>
+                </div>
                 <div class="flex space-between align-center">
                     <div class="card w-30 bleu"><!-- avis 1 -->
                         <div class="flex space-between align-start mb-16">
@@ -209,8 +264,8 @@
 
         </section>
         <section id="avantage" class="bg-bleuclair"> <!-- Avantages et bénéfices -->
-            <div class="flex space-between align-center container-1000">
-                <h2 class="w-100 mt-64 mb-64 text-center">Avantages et bénéfices</h2>
+            <div class="flex space-between container-1000 pt-64 pb-64">
+                <h2 class="w-100 mb-16 text-center">Avantages et bénéfices</h2>
 
                 <div class="card2 w-30 mb-64 p-16"> <!-- avantage 1 -->
                     <i class="ph ph-map-trifold bleu-moyen"></i>
@@ -272,7 +327,7 @@
             </div>
         </section>
         <section id="telechargement" class="bg-orange"> <!-- Téléchargement-->
-            <div class="container-1000 flex space-between align-center">
+            <div class="container-1000 flex space-between align-center pt-64 pb-64">
 
                 <div class="w-48">
                     <h2 class="white mb-32 ddl-titre">Prêt à donner vie à votre quartier ?</h2>
@@ -308,7 +363,7 @@
                 <div class="flex space-between align-center  mt-64 mb-16">
                     <img src="assets/logo.png" alt="" class="w-20">
                     <h3 class="white s-h3 w-75">CoQuartier</h3>
-             </div>
+                </div>
                 <nav class="flex align-center justify-end w-100">
                     <a href=""><i class="ph ph-facebook-logo white w-20 s-h3"></i></a>
                     <a href=""><i class="ph ph-linkedin-logo white w-20 s-h3"></i></a>
