@@ -437,9 +437,9 @@ h1 {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 900;
+    font-weight: 900;
     text-decoration: none;
-    font-size: 64px;
+    font-size: 68px;
 }
 
 h2 {
@@ -447,7 +447,7 @@ h2 {
     font-optical-sizing: auto;
     font-style: normal;
     text-decoration: none;
-    font-size: 32px;
+    font-size: 36px;
 }
 
 h3 {
@@ -594,12 +594,25 @@ i{
     padding: 16px;
 }
 
+.card-chiffre{
+    border: solid 5px transparent;
+    border-radius: 1000000px;
+    background-color: #ebf2ff;
+    color: #2C4B82;
+    font-size: 64px;
+    padding: 16px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-weight: 900;
+}
+
 .btn1 {
     background-color: #ebf2ff;
     border-radius: 100px;
     color: #201F21;
-    padding: 10px 15px;
-    font-size: 20px;
+    padding: 8px 16px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -607,8 +620,8 @@ i{
     background-color: #FF882C;
     border-radius: 100px;
     color: white;
-    padding: 10px 15px;
-    font-size: 20px;
+    padding: 8px 16px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -629,15 +642,13 @@ i{
 
 .sur1 {
     background-color: #ebf2ff;
-    border-radius: 5px;
     color: #2C4B82;
-    padding: 2px;
+    padding: 5px;
     
 }
 
 .sur2 {
     background-color: #ebf2ff;
-    border-radius: 5px;
     color: #2C4B82;
     padding: 2px;
     
@@ -645,9 +656,8 @@ i{
 
 .sur3 {
     background-color: #ebf2ff;
-    border-radius: 5px;
     color: #2C4B82;
-    padding: 2px;
+    padding: 5px;
     
 }
 
@@ -689,13 +699,19 @@ i{
     
 }
 
-
-
-.fleche-de-gauche{
-    position: relative;
+.mySwiper{
+   width: 750px;
+}
+.myswiper2{
+    width: 500px;
+}
+.fleche-de-gauche,.fleche-de-gauche2{
+   font-size: 32px;
+   color: #2C4B82;
 
 }
 
-.fleche-de-droite{
-    
+.fleche-de-droite,.fleche-de-droite2{
+    font-size: 32px;
+    color: #2C4B82;
 }
