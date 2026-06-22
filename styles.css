@@ -398,6 +398,9 @@ header{
         display: block;
     }
 }
+
+
+
 /* ------------------------------
             COULEUR
  ---------------------------------*/
@@ -528,7 +531,7 @@ i{
 
 .s-a{
     font-size: 20px;
-    font-weight: 500;
+    
 }
 
 
@@ -704,14 +707,36 @@ i{
 }
 .myswiper2{
     width: 500px;
+    .swiper-slides{
+        height: 300px;
+    }
 }
-.fleche-de-gauche,.fleche-de-gauche2{
-   font-size: 32px;
+.fleche-de-gauche{
+   font-size: 24px;
    color: #2C4B82;
 
 }
 
-.fleche-de-droite,.fleche-de-droite2{
-    font-size: 32px;
+.fleche-de-droite{
+    font-size: 24px;
     color: #2C4B82;
 }
+
+
+.fleche-de-gauche2{
+    font-size: 24px;
+   color: #FF882C;
+
+}
+
+.fleche-de-droite2{
+    font-size: 24px;
+    color: #FF882C;
+}
+
+.icon-size{
+    font-size: 40px;
+}
+
+
+
