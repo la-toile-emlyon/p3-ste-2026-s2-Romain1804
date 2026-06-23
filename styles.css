@@ -378,6 +378,8 @@ header{
 .bgherodoc {
     background-image: url(assets/documentation/hero.png);
     background-position: 0%;
+    background-size: cover;
+    
     
 }
 /* ------------------------------
@@ -478,6 +480,15 @@ h4 {
     font-weight: 600;
 }
 
+.h4, i{
+    font-size: 24px;
+}
+
+.p-problematique{
+    font-size: 28px;
+    font-style: italic;
+}
+
 p {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -485,6 +496,7 @@ p {
     text-decoration: none;
     font-size: 16px;
 }
+
 
 ul {
     font-family: "Montserrat", sans-serif;
@@ -543,12 +555,11 @@ i{
 }
 
 
-.bold{
-    font-weight: 700;
+
+.background-investir{
+    background-color: #FFD5B5;
+    padding: 1px 2px;
 }
-
-
-
 
 /* ------------------------------
             CTA et CARD
@@ -650,6 +661,7 @@ i{
 .btn-hero{
     padding: 15px 20px;
 }
+
 
 .sur1 {
     background-color: #ebf2ff;
