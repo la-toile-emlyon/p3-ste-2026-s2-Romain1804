@@ -478,11 +478,18 @@ h4 {
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
+
+    i{
+    font-size: 64px;
+    font-weight: 600;
+}
 }
 
-.h4, i{
-    font-size: 24px;
+i{
+    font-size: 100px;
 }
+
+
 
 .p-problematique{
     font-size: 28px;
@@ -516,9 +523,6 @@ li {
 
 }
 
-i{
-    font-size: 100px;
-}
 
 .ddl-p{
     font-size: 32px;
@@ -706,8 +710,6 @@ i{
     background-color: #ebf2ff;
     padding: 16px;
 }
-
-
 
 
 .radius-20{
